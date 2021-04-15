@@ -1,0 +1,33 @@
+/* .transactionHistory {
+  border: 1px solid black;
+} */
+
+.parametresItem {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.parametresList {
+  background-color: rgba(0, 0, 0, 0.747);
+  color: white;
+  text-align: center;
+}
+
+.parametresType {
+  composes: parametresItem;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.603);
+  text-transform: uppercase;
+}
+
+/* .parametreslist:nth-child(2n) {
+  background-color: salmon;
+} */
+
+.headerList {
+  font-size: 25px;
+}
+
+.headerListItem {
+  padding: 15px;
+}
