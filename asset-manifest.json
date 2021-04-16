@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/css/main.23013544.chunk.css",
+    "main.js": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/main.01a45cad.chunk.js",
+    "main.js.map": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/main.01a45cad.chunk.js.map",
+    "runtime-main.js": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/runtime-main.43b2a2b7.js",
+    "runtime-main.js.map": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/runtime-main.43b2a2b7.js.map",
+    "static/css/2.de71bbd8.chunk.css": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css",
+    "static/js/2.8b3a245d.chunk.js": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/2.8b3a245d.chunk.js",
+    "static/js/2.8b3a245d.chunk.js.map": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/2.8b3a245d.chunk.js.map",
+    "index.html": "/ElenaGubarenko.github.io/goit-react-hw-01-components/index.html",
+    "static/css/2.de71bbd8.chunk.css.map": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css.map",
+    "static/css/main.23013544.chunk.css.map": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/css/main.23013544.chunk.css.map",
+    "static/js/2.8b3a245d.chunk.js.LICENSE.txt": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/js/2.8b3a245d.chunk.js.LICENSE.txt",
+    "static/media/noImage.8c9da1f3.jpg": "/ElenaGubarenko.github.io/goit-react-hw-01-components/static/media/noImage.8c9da1f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43b2a2b7.js",
+    "static/css/2.de71bbd8.chunk.css",
+    "static/js/2.8b3a245d.chunk.js",
+    "static/css/main.23013544.chunk.css",
+    "static/js/main.01a45cad.chunk.js"
+  ]
+}
