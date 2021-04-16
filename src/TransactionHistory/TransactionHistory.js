@@ -1,5 +1,5 @@
-import PropTypes from "prop-types"
-import styles from "./TransactionHistory.module.css"
+import PropTypes from 'prop-types';
+import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
@@ -13,7 +13,7 @@ const TransactionHistory = ({ items }) => {
       </thead>
 
       <tbody className={styles.tableBody}>
-        {items.map((item) => (
+        {items.map(item => (
           <tr className={styles.parametresList} key={item.id}>
             <td className={styles.parametresType}>{item.type}</td>
             <td className={styles.parametresItem}>{item.amount}</td>
@@ -22,11 +22,11 @@ const TransactionHistory = ({ items }) => {
         ))}
       </tbody>
     </table>
-  )
-}
+  );
+};
 
 TransactionHistory.propTypes = {
   items: PropTypes.array.isRequired,
-}
+};
 
-export default TransactionHistory
+export default TransactionHistory;

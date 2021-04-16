@@ -1,7 +1,14 @@
-import PropTypes from "prop-types"
-import styles from "./Profile.module.css"
+import PropTypes from 'prop-types';
+import styles from './Profile.module.css';
+import defaultImg from '../NoImage/noImage.jpg';
 
-const Profile = ({ name, tag, location, avatar, stats: { followers, views, likes } }) => {
+const Profile = ({
+  name,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
+}) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
@@ -26,12 +33,12 @@ const Profile = ({ name, tag, location, avatar, stats: { followers, views, likes
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
 Profile.defaultProps = {
-  avatar: "https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg",
-}
+  avatar: `${defaultImg}`,
+};
 
 Profile.propTypes = {
   name: PropTypes.string.isRequired,
@@ -41,6 +48,6 @@ Profile.propTypes = {
   followers: PropTypes.number,
   views: PropTypes.number,
   likes: PropTypes.number,
-}
+};
 
-export default Profile
+export default Profile;
