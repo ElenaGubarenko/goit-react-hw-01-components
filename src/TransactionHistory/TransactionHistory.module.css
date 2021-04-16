@@ -14,7 +14,9 @@
 }
 
 .parametresType {
-  composes: parametresItem;
+  /* composes: parametresItem; */
+  padding: 15px;
+  border-radius: 5px;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.603);
   text-transform: uppercase;

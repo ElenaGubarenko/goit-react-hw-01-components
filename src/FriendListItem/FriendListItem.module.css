@@ -32,6 +32,10 @@
 }
 
 .offline {
-  composes: status;
+  /* composes: status; */
   background-color: rgb(255, 41, 41);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
