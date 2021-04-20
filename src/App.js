@@ -10,12 +10,7 @@ import statisticsData from './statistical-data.json';
 import friends from './friends.json';
 import transactions from './transactions.json';
 
-// спросить как правильно в app надоб было передать user
-// спросить как надо было передавать статистику, если в json не массив: как передать его, чтобы не писать несколько
-// как правильо прописывать стили в className = {тут}
-// composes почему пишет что неизвестное свойство но работает
-// как правильно указать несколько классов
-// почему не работает на строках таблицы nth-child
+// спросить как сделать так, чтобы stats в user.json перебирался. for (let key in obj) {key obj[key]} вот так не получается. или я чтото не то делаю. как ее правильно записать в profile.js
 
 const App = () => {
   return (
@@ -29,6 +24,7 @@ const App = () => {
           stats={user.stats}
         />
         <Statistics title="Upload stats" stats={statisticsData} />
+        <Statistics stats={statisticsData} />
         <FriendList friends={friends} />
         <TransactionHistory items={transactions} />
       </Container>

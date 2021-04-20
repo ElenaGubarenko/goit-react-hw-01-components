@@ -15,16 +15,13 @@
 
 .parametresType {
   composes: parametresItem;
-  /* padding: 15px;
-  border-radius: 5px; */
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.603);
   text-transform: uppercase;
 }
 
-/* .parametreslist:nth-child(2n) {
-  background-color: salmon;
-} */
+.parametresList:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.603);
+}
 
 .headerList {
   font-size: 25px;
